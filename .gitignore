@@ -29,5 +29,6 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# vercel deploy
+# for vercel deploy disable lock files
 package-lock.json
+yarn.lock
