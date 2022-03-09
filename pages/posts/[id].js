@@ -1,7 +1,7 @@
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
-import Sep from '../components/sep'
+import Sep from '../../components/sep'
 
 export default function Post({ postData }) {
   console.log(postData)
